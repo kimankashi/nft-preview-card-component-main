@@ -13,7 +13,7 @@ nav{
 }
 .first-imge{
     width: 250px;
-    height: 530px;
+    height: 450px;
     margin-top: 30px;
     justify-content: center;
     padding: 20px;
@@ -22,18 +22,27 @@ nav{
     background-color: hsl(216, 50%, 16%);
 
 }
-.eye{
-    color: bisque;
+.icon-view{
+    background-image: url("./images/icon-view.svg");
+    background-color: hsl(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    width: 100%;
+    height: 210px;
+    cursor: pointer;
 }
-eye:hover{
-    color: hsl(178, 100%, 50%);
+.icon-view:hover .img {
+    opacity: 0.3;
 }
+
 h1{
     color: hsl(0, 0%, 100%);
     margin-top: 20px;
 }
 h1:hover{
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 p{
     color: hsl(215, 51%, 70%);
@@ -41,6 +50,7 @@ p{
 }
 .img{
     width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 .sec-img{
@@ -63,4 +73,8 @@ p{
 .mit{
     color: hsl(178, 100%, 50%);
 
+}
+.nit:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
