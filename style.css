@@ -13,7 +13,7 @@ nav{
 }
 .first-imge{
     width: 250px;
-    height: 490px;
+    height: 530px;
     margin-top: 30px;
     justify-content: center;
     padding: 20px;
@@ -22,9 +22,18 @@ nav{
     background-color: hsl(216, 50%, 16%);
 
 }
+.eye{
+    color: bisque;
+}
+eye:hover{
+    color: hsl(178, 100%, 50%);
+}
 h1{
     color: hsl(0, 0%, 100%);
     margin-top: 20px;
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
 }
 p{
     color: hsl(215, 51%, 70%);
